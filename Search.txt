@@ -1,0 +1,41 @@
+TYPE,BUTTON,init
+init,LABEL,Initialize
+
+TYPE,BUTTON,search
+search,LABEL,Search
+
+TYPE,BUTTON,Display
+Display,LABEL,Display
+
+TYPE,BUTTON,Stop
+Stop,LABEL,Stop
+
+TYPE,BUTTON,GoOnce
+GoOnce,LABEL,Go Once
+
+TYPE,RANGE,frames
+frames,LABEL,Frames Per Second
+frames,MIN,5
+frames,MAX,120
+frames,STEP,5
+frames,VALUE,10
+
+TYPE,DROPDOWN,maze
+maze,LABEL,Maze Difficulty
+maze,OPTION,E,Easy,selected
+maze,OPTION,M,Medium
+maze,OPTION,H,Hard
+maze,OPTION,R,Random
+
+TYPE,RANGE,randsize
+randsize,LABEL,Frames Per Second
+randsize,MIN,2
+randsize,MAX,100
+randsize,STEP,2
+randsize,VALUE,20
+
+TYPE,DROPDOWN,method
+method,LABEL,Searching Method
+method,OPTION,DFS,Depth First Search,selected
+method,OPTION,iDFS,Iterative Depth First Search
+method,OPTION,BFS,Breadth First Search
